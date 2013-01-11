@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
 		//et.setInputType(InputType.TYPE_CLASS_NUMBER);
 		final CharSequence[] Countries = { "1000", "2000", "3000" }; 
 		AlertDialog.Builder boom = new AlertDialog.Builder(this);
+		//hgelhehe
 		boom.setTitle("choose bet amount");
 		boom.setPositiveButton("ok",null);
 		boom.setSingleChoiceItems(Countries, 0,new DialogInterface.OnClickListener() {
